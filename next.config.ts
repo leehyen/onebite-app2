@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true, // 타입 오류 무시하고 build 강제 통과
   },
+  images:{
+    domains: ["shopping-phinf.pstatic.net"],
+  }
 };
 
 export default nextConfig;
